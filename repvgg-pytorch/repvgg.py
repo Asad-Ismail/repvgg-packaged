@@ -233,7 +233,7 @@ def create_RepVGG_A0(deploy=False, use_checkpoint=False):
     return RepVGG(num_blocks=[2, 4, 14, 1], num_classes=1000,
                   width_multiplier=[0.75, 0.75, 0.75, 2.5], override_groups_map=None, deploy=deploy, use_checkpoint=use_checkpoint)
 
-def create_RepVGG_A0_Pheno(deploy=False, use_checkpoint=False):
+def create_RepVGG_A0_backbone(deploy=False, use_checkpoint=False):
     return RepVGGBackbone(num_blocks=[2, 4, 14, 1],width_multiplier=[0.75, 0.75, 0.75, 1], override_groups_map=None, deploy=deploy, use_checkpoint=use_checkpoint)
 
 def create_RepVGG_A1(deploy=False, use_checkpoint=False):
