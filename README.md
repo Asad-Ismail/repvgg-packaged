@@ -3,8 +3,8 @@
 A Python-packaged version of RepVGG: Making VGG-style ConvNets Great Again 🚀. The main contribution of this repo is to provide an easy-to-use backbone for RepVGG, which can be effortlessly used for downstream computer vision tasks 🖼️.
 
 This project is based on the excellent original RepVGG implementation by authors Ding, Xiaohan et al. 🌟:
-- GitHub repository: https://github.com/DingXiaoH/RepVGG
-- Paper: https://openaccess.thecvf.com/content/CVPR2021/papers/Ding_RepVGG_Making_VGG-Style_ConvNets_Great_Again_CVPR_2021_paper.pdf
+- [GitHub repository (code)](https://github.com/DingXiaoH/RepVGG)
+- [Paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Ding_RepVGG_Making_VGG-Style_ConvNets_Great_Again_CVPR_2021_paper.pdf)
 
 
 ## Install
