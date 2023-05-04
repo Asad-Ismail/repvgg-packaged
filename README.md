@@ -18,6 +18,7 @@ $ pip install repvgg-pytorch
 
 import torch
 from repvgg_pytorch import get_RepVGG_func_by_name
+from repvgg_pytorch import repvgg_model_convert
 
 repvgg_name="RepVGG-A0-backbone"
 model_builder=get_RepVGG_func_by_name(repvgg_name)
@@ -59,6 +60,7 @@ out=model(x) # (1, 512, 64, 64)
 
 import torch
 from repvgg_pytorch.repvgg import get_RepVGG_func_by_name
+from repvgg_pytorch import repvgg_model_convert
 
 repvgg_name="RepVGG-A0-backbone"
 model_builder=get_RepVGG_func_by_name(repvgg_name)
