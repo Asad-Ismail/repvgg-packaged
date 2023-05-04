@@ -1,9 +1,9 @@
 # Repvgg-packaged
 
-Python packaged version of RepVGG: Making VGG-style ConvNets Great Again 
+Python packaged version of RepVGG: Making VGG-style ConvNets Great Again. Main contribution of this repo is to provide easy to use backbone for RepVGG which can be easily used for downstream computer vision tasks
 
-https://openaccess.thecvf.com/content/CVPR2021/papers/Ding_RepVGG_Making_VGG-Style_ConvNets_Great_Again_CVPR_2021_paper.pdf
-
+This project is based on excellent original RepVGG implmentation by authors Ding, Xiaohan et.al https://github.com/DingXiaoH/RepVGG
+Paper https://openaccess.thecvf.com/content/CVPR2021/papers/Ding_RepVGG_Making_VGG-Style_ConvNets_Great_Again_CVPR_2021_paper.pdf
 
 ## Install
 
@@ -95,3 +95,14 @@ out=model(x) # (1, 320, 64, 64)
 
 ```
 
+## References
+
+```
+@inproceedings{ding2021repvgg,
+title={Repvgg: Making vgg-style convnets great again},
+author={Ding, Xiaohan and Zhang, Xiangyu and Ma, Ningning and Han, Jungong and Ding, Guiguang and Sun, Jian},
+booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+pages={13733--13742},
+year={2021}
+}
+```
