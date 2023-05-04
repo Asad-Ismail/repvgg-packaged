@@ -293,7 +293,7 @@ def create_RepVGG_D2se(deploy=False, use_checkpoint=False):
 
 func_dict = {
 'RepVGG-A0': create_RepVGG_A0,
-'RepVGG-A0-Pheno': create_RepVGG_A0_Pheno,
+'RepVGG-A0-backbone': create_RepVGG_A0_backbone,
 'RepVGG-A1': create_RepVGG_A1,
 'RepVGG-A2': create_RepVGG_A2,
 'RepVGG-B0': create_RepVGG_B0,

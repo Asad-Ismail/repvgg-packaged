@@ -248,7 +248,7 @@ def create_RepVGGplus_L2pse(deploy=False, use_checkpoint=False):
                       use_checkpoint=use_checkpoint)
 
 
-class RepVGGplusPhen(nn.Module):
+class RepVGGplusBackbone(nn.Module):
     """RepVGGplus
         An official improved version of RepVGG (RepVGG: Making VGG-style ConvNets Great Again) <https://openaccess.thecvf.com/content/CVPR2021/papers/Ding_RepVGG_Making_VGG-Style_ConvNets_Great_Again_CVPR_2021_paper.pdf>`_.
 
@@ -301,15 +301,15 @@ class RepVGGplusPhen(nn.Module):
         self.deploy = True
 
 
-def create_RepVGGplus_phen64(deploy=False, use_checkpoint=False):
-    return RepVGGplusPhen(num_blocks=[8, 14, 24, 1],
+def create_RepVGGplus_backbone(deploy=False, use_checkpoint=False):
+    return RepVGGplusBackbone(num_blocks=[8, 14, 24, 1],
                   width_multiplier=[2.5, 2.5, 2.5, 5], deploy=deploy, use_post_se=True,
                       use_checkpoint=use_checkpoint)
 
 #   Will release more
 repvggplus_func_dict = {
     'RepVGGplus-L2pse': create_RepVGGplus_L2pse,
-    'RepVGGplus-phen64': create_RepVGGplus_phen64
+    'RepVGGplus-backbone': create_RepVGGplus_backbone
 }
 
 def create_RepVGGplus_by_name(name, deploy=False, use_checkpoint=False):
