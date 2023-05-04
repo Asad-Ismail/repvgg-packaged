@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
   name = 'repvgg-pytorch',
   packages = find_packages(exclude=['examples']),
-  version = '1.2.0',
+  version = '1.0.0',
   license='MIT',
   description = 'RepVGG - Pytorch',
   long_description_content_type = 'text/markdown',

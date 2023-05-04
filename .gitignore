@@ -1,3 +1,7 @@
 build/*
 *.egg-info*/*
 *.eggs*/
+*.pth
+*.pyc
+*__pycache__*
+__pycache__/
