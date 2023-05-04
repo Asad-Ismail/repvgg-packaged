@@ -1,6 +1,6 @@
 # 🎁 Repvgg-packaged 🎁
 
-A Python-packaged version of RepVGG: Making VGG-style ConvNets Great Again 🚀. The main contribution of this repo is to provide an easy-to-use backbone for RepVGG, which can be effortlessly used for downstream computer vision tasks 🖼️.
+A Python-packaged version of RepVGG: Making VGG-style ConvNets Great Again 🚀. The main contribution of this repo is to provide an easy-to-use backbone for RepVGG, which can be effortlessly used for downstream computer vision tasks
 
 This project is based on the excellent original RepVGG implementation by authors Ding, Xiaohan et al. 🌟:
 - [GitHub repository (code)](https://github.com/DingXiaoH/RepVGG)
