@@ -1,11 +1,16 @@
 from setuptools import setup, find_packages
 
+# Read the content of the README file
+with open("README.md", "r", encoding="utf-8") as f:
+    long_description = f.read()
+
 setup(
   name = 'repvgg-pytorch',
   packages = find_packages(exclude=['examples']),
-  version = '1.0.0',
+  version = '1.0.1',
   license='MIT',
   description = 'RepVGG - Pytorch',
+  long_description=long_description,  # Add the long_description parameter
   long_description_content_type = 'text/markdown',
   author = 'Asad Ismail',
   author_email = 'asadismaeel@gmail.com',
